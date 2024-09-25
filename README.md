@@ -50,13 +50,13 @@ Other options such as Mixpanel, Amplitude, Segment, and Facebook Analytics also 
 
 2. Add the required Firebase secrets for Firebase Analytics:
 
-- Go to your project's repository on GitHub.
-- Navigate to Settings > Secrets and Variables > Actions.
-- Add the following secrets:
-  - `FIREBASE_OPTIONS_ANDROID_API_KEY`
-  - `FIREBASE_OPTIONS_ANDROID_APP_ID`
-  - `FIREBASE_OPTIONS_IOS_API_KEY`
-  - `FIREBASE_OPTIONS_IOS_APP_ID`
+   - Go to your project's repository on GitHub.
+   - Navigate to Settings > Secrets and Variables > Actions.
+   - Add the following secrets:
+     - `FIREBASE_OPTIONS_ANDROID_API_KEY`
+     - `FIREBASE_OPTIONS_ANDROID_APP_ID`
+     - `FIREBASE_OPTIONS_IOS_API_KEY`
+     - `FIREBASE_OPTIONS_IOS_APP_ID`
  
 3. Update the `android/build.gradle` file as follows:
 
