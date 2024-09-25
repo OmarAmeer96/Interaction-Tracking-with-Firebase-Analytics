@@ -8,32 +8,17 @@ This guide demonstrates how to integrate Firebase Analytics into a Flutter appli
 
 ## Table of Contents
 
-- [CI/CD Pipeline for Flutter Apps Development](#cicd-pipeline-for-flutter-apps-development)
+- [Interaction Tracking with Firebase Analytics in Flutter](#interaction-tracking-with-Firebase-analytics-in-flutter)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
-  - [Setting Up Flavors in Flutter](#setting-up-flavors-in-flutter)
-    - [`..\.vscode\launch.json` Configuration](#vscodelaunchjson-configuration)
-    - [`..\android\app\build.gradle` Configuration](#androidappbuildgradle-configuration)
-    - [`..\android\app\src\main\AndroidManifest.xml` Configuration](#androidappsrcmainandroidmanifestxml-configuration)
-  - [Firebase Configuration](#firebase-configuration)
-  - [Installing Fastlane](#installing-fastlane)
-  - [Integrating Firebase with Fastlane](#integrating-firebase-with-fastlane)
-  - [Setting Up GitHub Actions](#setting-up-github-actions)
-  - [Running the Pipeline](#running-the-pipeline)
+  - [Why Firebase Analytics?](#why-firebase-analytics?)
+  - [Setup Firebase in Flutter](#setup-firebase-in-flutter)
+    - [Firebase Console Setup](#firebase-console-setup)
+    - [Flutter Project Setup](#flutter-project-setup)
+    - [Logging Events](#logging-events)
+  - [Integrating Firebase Analytics in Flutter](#integrating-firebase-analytics-in-flutter)
+  - [Tracking Events](#tracking-events)
+  - [Viewing Analytics Data](#viewing-analytics-data)
   - [Conclusion](#conclusion)
   - [References](#references)
  
-  Table of Contents
-Interaction Tracking with Firebase Analytics in Flutter
-Overview
-Table of Contents
-Why Firebase Analytics?
-Setup Firebase in Flutter
-Firebase Console Setup
-Flutter Project Setup
-Logging Events
-Integrating Firebase Analytics in Flutter
-Tracking Events
-Viewing Analytics Data
-Conclusion
-References
