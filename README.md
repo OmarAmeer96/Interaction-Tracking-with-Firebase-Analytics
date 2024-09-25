@@ -116,14 +116,21 @@ Firebase Analytics allows you to track specific user actions through event loggi
    ```dart
    class MyApp extends StatelessWidget {
      final FirebaseAnalytics analytics = FirebaseAnalytics.instance;
-  
+     final FirebaseAnalyticsObserver observer = FirebaseAnalyticsObserver(
+     analytics: FirebaseAnalytics.instance,
+     );
+
      MyApp({super.key});
-  
+
      @override
      Widget build(BuildContext context) {
-       return const MaterialApp(
+       return MaterialApp(
          title: 'Firebase Analytics Demo',
-         home: HomeView(),
+         // For tracking screen views
+         navigatorObservers: [
+           observer,
+         ],
+         home: const HomeView(),
        );
      }
    }
