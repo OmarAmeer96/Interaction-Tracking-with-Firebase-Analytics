@@ -188,4 +188,25 @@ class HomeViewState extends State<HomeView> {
 }
 ```
 
+## Viewing Analytics Data
+
+To view the logged data:
+
+1. Go to the Firebase Console.
+2. Navigate to the Analytics section.
+3. Here, you can explore user events, set up custom dashboards, and gain insights into user behavior.
+
+
+## Conclusion
+
+Integrating Firebase Analytics into your Flutter app is a powerful way to track user behavior and interactions. It provides deep insights into how users interact with your application, enabling you to make data-driven decisions and optimize your app's user experience.
+
+Happy Tracking! 🎯
+
+
+## References
+
+- [Firebase Analytics Documentation](https://firebase.google.com/docs/analytics/get-started?platform=flutter)
+- [FlutterFire Documentation](https://firebase.flutter.dev/docs/overview/)
+- [Firebase CLI Documentation](https://firebase.google.com/docs/cli#install-cli-windows)
 
