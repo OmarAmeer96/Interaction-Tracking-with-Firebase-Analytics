@@ -1,6 +1,18 @@
 # Interaction Tracking with Firebase Analytics in Flutter
 
-![Firebase Analytics Event Tracking](https://github.com/user-attachments/assets/a8d9fb65-1f13-4c10-80b8-77698a2d2172)
+<!-- ![Firebase Analytics Event Tracking](https://github.com/user-attachments/assets/a8d9fb65-1f13-4c10-80b8-77698a2d2172) -->
+
+<!-- First image on its own line -->
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a8d9fb65-1f13-4c10-80b8-77698a2d2172" style="max-width: 100%; height: auto;">
+</p>
+
+<!-- Second and third images side by side -->
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8d99cf47-0b47-4899-b12a-e51da01c7e06" style="width: 69%; height: auto; display: inline-block;">
+  <img src="https://github.com/user-attachments/assets/6206c94b-e894-4411-a2f3-aaeb1fa608a0" style="width: 30%; height: auto; display: inline-block;">
+</p>
+
 
 ## Overview
 
